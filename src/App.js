@@ -1,11 +1,15 @@
-import React from 'react';
+import React from "react";
+
+import SubmissionInfo from "./components/SubmissionInfo";
+import UserForm from "./components/UserForm";
 
 const App = () => {
   return (
     <div className="App">
-      123
+      <UserForm />
+      <SubmissionInfo />
     </div>
   );
-}
+};
 
 export default App;
